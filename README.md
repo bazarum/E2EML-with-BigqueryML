@@ -6,6 +6,15 @@ We will use differents datasets like NYC taxi or AbadIA datasets to show to do i
 
 ## Data Sources
 
+NYC Taxi trips Dataset
+
+https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+AbadIA 
+
+comming soon.
+
+
 Not decided yet, but perhaps it could be a great idea to use the same dataset with all project.  
 
 ## Expected Cloud AI tools
@@ -13,7 +22,11 @@ Not decided yet, but perhaps it could be a great idea to use the same dataset wi
 Try to do everything just with BigQuery ML even the production inference:
 
 BigQuery -> Data Ingest  (load csv files)
+
 BigQuery SQL (Data Cleaning) -> clean and write result to the final table 
+
 BigQuery ML (Model Training) -> Train a model (decision tree or mlp, or ensemble model) 
+
 BigQuery ML (Model Serving) -> Just insert data and get the inferences
+
 BigQuery ML (Model Export) -> Just export the model for third part use.
